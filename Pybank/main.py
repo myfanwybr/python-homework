@@ -3,7 +3,7 @@ import csv
 
 #Path to collect data from Resources folder
 filepath=os.path.join("Resources", "budget_data.csv") 
-file_to_output = os.path.join("pybank_analysis.txt")   
+file_to_output = os.path.join("Analysis", "pybank_analysis.txt")   
 #define variables
 month_counter=1
 total_revenue=0
